@@ -34,7 +34,7 @@ public class SincronizarStatusSefazScheduler {
         sincronizarStatusSefaz();
     }
 
-    @Scheduled(cron = "0  0/1  *  *  *  *")
+    @Scheduled(cron = "0  0/5  *  *  *  *")
     public void sincronizarStatusSefaz() {
 
         log.info("Sincronizando satatus da Sefaz");
